@@ -9,7 +9,7 @@ def emcc_binary(
     includejs = False
     includehtml = False
     linkopts = list(linkopts)
-    linkopts.append("-s EXTRA_EXPORTED_RUNTIME_METHODS='[\"ccall\", \"cwrap\"]'")
+    linkopts.append("-s EXTRA_EXPORTED_RUNTIME_METHODS='['ccall', 'cwrap']'")
     if name.endswith(".html"):
         basename = name[:-5]
         includehtml = True
