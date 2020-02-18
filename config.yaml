@@ -47,3 +47,13 @@ esp32_64:
   toolchain_id: "xtensa_esp32_elf_linux64"
   glibc_version: "glibc_2.27.57"
   gcc_version: "5.2.0"
+
+armv6:
+  cpu_type: "armv6-eabihf"
+  tarball_url: "https://toolchains.bootlin.com/downloads/releases/toolchains/armv6-eabihf/tarballs/armv6-eabihf--glibc--bleeding-edge-2018.11-1.tar.bz2"
+  tool_perfix: "armv6-linux"
+  strip_perfix: "armv6-eabihf--glibc--bleeding-edge-2018.11-1"
+  buildroot_dir: "armv6-buildroot-linux-gnu"
+  toolchain_id: "bootlin_armv6_toolchain"
+  glibc_version: "glibc-2.28-18-g2339d6a55eb7a7e040ae888e906adc49eeb59eab"
+  gcc_version: "8.1.1"

@@ -1,0 +1,5 @@
+#!/bin/bash --norc
+
+exec -a armv6-linux-ar \
+    external/bootlin_armv6_toolchain/bin/armv6-linux-ar \
+    "$@"
