@@ -62,4 +62,5 @@ cc_toolchain(
     strip_files = "//tools/armv6-eabihf--glibc--bleeding-edge-2018.11-1/armv6-linux:strip",
     supports_param_files = 1,
     visibility = ["//visibility:public"],
+    toolchain_config = ":armeabihf-v6_toolchain_config",
 )
